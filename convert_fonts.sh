@@ -17,5 +17,7 @@ cat <<EOF > build/$FONTNAME.css
        url('${RELEASE_URL}/${FONTNAME}.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
        url('${RELEASE_URL}/${FONTNAME}.ttf') format('truetype'), /* Safari, Android, iOS */
        url('${RELEASE_URL}/${FONTNAME}.svg#${FONTNAME}') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
 }
 EOF
