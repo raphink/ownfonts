@@ -7,7 +7,12 @@ deploy:
   provider: releases
   api_key:
     secure: IgbHI8F+lWZn6AfUynDtsmTkxyL+Dki6slu7sfDDsKomXn47J1TXE647oztoJlfHV20TQ6lGKh0Zt6TNZkRuUEh5RK9wxccGDV+eaKUxfjOf8dqpxKspfroY3rcEbmlf2q02U3PDcsTvRevz0oBptrildROuSrqBCm++PQEauOZMvMufDJ9zOH/KQVCeCx0MrwiEnpFzghUUuBN1h0M8KkVO674GHJzV3vd8XZMILhenicAymX27Hxv+0xBx8Q6c0K9mCxVzlUV/fgmnNc0e//r/VDvQfmo3EEJc1mICofkcwPtWC3H1ml3ysQLXJMHS64Tr9W1VrTeIqZZuZqeu/Y/WBUidpIkkLFr/QlEQMcZsirL0D24IT9ou72JHZWbqmSrlybwPPlk6/96DwwwbLXJNTnBgP1kCKWXYw26sIoqGMjvE96iwRqb6jsj5uCiB2DxlaZ85LFoeWQY4YP5ZPaMDukC7+cv4B63OpSPn/oruncdO2AhIWbU+1ojB2sndCtMNgHDe0lEavfTlVmy5n1aFL1naiSbsDxeysYhFGZYcd/MPLd5/kisGupPp+Qr/Y0CmezKEeMrZwHFuQbdGBxAH7g77X7fFwdQTs4XhGSmQm0TEak72HU0PLdXD9qigf+GAdeWUtdU3J1TbBdCeeS56A9YZTHxpGiZ60gP7xY8=
-  file: build/*
+  file:
+    - build/Dinah_1.eot
+    - build/Dinah_1.svg
+    - build/Dinah_1.ttf
+    - build/Dinah_1.woff
+    - build/Dinah_1.css
   on:
     repo: raphink/ownfonts
     tags: true
