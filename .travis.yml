@@ -13,3 +13,5 @@ deploy:
   file: build/*
   on:
     repo: raphink/ownfonts
+    tags: true
+    all_branches: true
