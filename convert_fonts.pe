@@ -1,0 +1,7 @@
+#!/usr/bin/fontforge
+
+Open($1)
+Generate('build/' + $1:r + '.svg')
+Generate('build/' + $1:r + '.ttf')
+Generate('build/' + $1:r + '.woff')
+
