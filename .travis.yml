@@ -1,9 +1,6 @@
-sudo: false
-addons:
-  apt:
-    packages:
-    - fontforge
-    - eot-utils
+sudo: true
+install:
+  - sudo apt-get install fontforge eot-utils
 script:
 - ./convert_fonts.sh Dinah_1.otf
 deploy:
