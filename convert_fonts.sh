@@ -21,3 +21,5 @@ cat <<EOF > build/$FONTNAME.css
   font-style: normal;
 }
 EOF
+
+zip -r build/"${FONTNAME}_${TRAVIS_TAG}.zip" build/${FONTNAME}*
