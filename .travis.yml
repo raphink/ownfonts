@@ -3,6 +3,8 @@ install:
   - sudo apt-get install fontforge eot-utils
 script:
 - ./convert_fonts.sh Dinah_1.otf
+- ./convert_fonts.sh Jimena_Script.otf
+- ./convert_fonts.sh Raphael_script_1.otf
 deploy:
   provider: releases
   api_key:
